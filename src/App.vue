@@ -1,6 +1,6 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
-import hero from './components/hero.vue'
+import hero from './components/Hero.vue'
 import about from './components/about.vue'
 import galeri from './components/galeri.vue'
 import akhir from './components/akhir.vue'
