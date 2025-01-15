@@ -4,8 +4,8 @@
     v-for="profile in profiles"
   >
     <div>
-      <div class="text-3xl font-bold sm:text-5xl">{{ profile.salam }} {{ profile.name }}</div>
-      <div class="text-3xl font-bold sm:text-5xl my-2">{{ profile.job }}</div>
+      <div class="text-3xl font-bold sm:text-5xl">{{ profile.salam }}</div>
+      <div class="text-3xl font-bold sm:text-5xl">{{ profile.name }}</div>
       <div class="mt-4 text-xl"></div>
     </div>
     <!-- Gambar Profile -->
@@ -26,7 +26,6 @@
 const profiles = [
   {
     salam: 'Halo ges kenalin gw ',
-    job: 'Katana user',
     name: 'Blue Zero',
     image: 'elJamet1.jpg',
     alt: 'profile photo',
