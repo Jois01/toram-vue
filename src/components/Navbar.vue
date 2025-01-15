@@ -9,7 +9,7 @@ const navigations = [
   <nav class="bg-gray-800 dark:bg-slate-950 sticky top-4 mx-4 rounded-lg shadow-md">
     <div class="flex items-center justify-between">
       <div class="flex items-center">
-        <a class="text-lg font-bold dark:text-slate-100 text-gray-200 m-4">Blue Zero</a>
+        <a href="#" class="text-lg font-bold dark:text-slate-100 text-gray-200 m-4">Blue Zero</a>
       </div>
       <div class="flex items-center dark:text-slate-100 text-gray-200 text-lg font-bold mx-10">
         <a
@@ -36,7 +36,7 @@ const navigations = [
               stroke="currentColor"
               class="size-6"
               :class="{
-                hidden: this.theme === 'light',
+                hidden: theme === 'light',
               }"
             >
               <path
@@ -53,7 +53,7 @@ const navigations = [
               stroke="currentColor"
               class="size-5"
               :class="{
-                hidden: this.theme === 'dark',
+                hidden: theme === 'dark',
               }"
             >
               <path
@@ -118,7 +118,7 @@ const navigations = [
                 stroke="currentColor"
                 class="size-6"
                 :class="{
-                  hidden: this.theme === 'light',
+                  hidden: theme === 'light',
                 }"
               >
                 <path
@@ -135,7 +135,7 @@ const navigations = [
                 stroke="currentColor"
                 class="size-5"
                 :class="{
-                  hidden: this.theme === 'dark',
+                  hidden: theme === 'dark',
                 }"
               >
                 <path
